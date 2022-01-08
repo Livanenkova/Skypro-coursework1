@@ -1,0 +1,138 @@
+$colorText: #FFFFFF;
+$backgroundColor: #000915;
+$backgroundButton:#9C0332;
+$hoverButton:#EB443F;
+$hoverPlays:#44D2FF;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-color: $backgroundColor;
+}
+
+.main {
+  background-image: url(./img/main_background_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 1024px;
+  padding-left: 120px;
+  padding-right: 120px;
+  // max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: start;
+  padding-top: 217px;
+  
+  &__title {
+    color: $colorText;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    margin-bottom: 32px;
+    width: 780px;
+  }
+
+  &__text{
+    color: $colorText;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 480px;
+
+    margin-bottom: 44px;
+  }
+
+  &__button {
+    text-decoration: none;
+    display: block;
+    color: $colorText;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: $backgroundButton;
+    width: 234px;
+    height:48px;
+    border: #9C0332 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background-color: $hoverButton;
+  }
+
+}
+
+.play {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 32px;
+  color: $colorText;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 127px;
+  padding-bottom: 127px;
+}
+
+.play1 {
+  background-image: url(./img/play1.jpg);
+}
+
+.play2 {
+  background-image: url(./img/play2.jpg);
+}
+
+.play3 {
+  background-image: url(./img/play3.jpg);
+}
+
+.play1, .play2, .play3 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 378px;
+  height: 300px;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 32px;
+  padding-bottom: 32px;
+
+  cursor: pointer;
+}
+
+.play1:hover, .play2:hover, .play3:hover {
+  border: 3px solid $hoverPlays;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+@import 'mobile';

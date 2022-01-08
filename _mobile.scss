@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+
+.main {
+  background-image: url(./img/main_background_img_mob.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 238px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  text-align: center;
+
+  &__title {
+    color: $colorText;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+}
+
+.play {
+  padding-left: 16px;
+  padding-right: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.play1 {
+  background-image: url(./img/play1_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 343px;
+  width: 100%;
+  padding-left: 15px;
+
+}
+
+.play2 {
+  background-image: url(./img/play2_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 343px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.play3{
+  background-image: url(./img/play3_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 343px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+}

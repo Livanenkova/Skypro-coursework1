@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .main {
+    background-image: url(./img/main_background_img_mob.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 238px;
+  }
+}

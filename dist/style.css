@@ -70,7 +70,7 @@ body {
   background-color: #EB443F;
 }
 
-.play {
+.play-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -98,7 +98,7 @@ body {
   background-image: url(./img/play3.jpg);
 }
 
-.play1, .play2, .play3 {
+.play {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -114,7 +114,7 @@ body {
   cursor: pointer;
 }
 
-.play1:hover, .play2:hover, .play3:hover {
+.play:hover {
   border: 3px solid #44D2FF;
   box-sizing: border-box;
   border-radius: 16px;
@@ -143,7 +143,7 @@ body {
     width: 100%;
   }
 
-  .play {
+  .play-container {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;

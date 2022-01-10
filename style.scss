@@ -83,7 +83,7 @@ body {
 
 }
 
-.play {
+.play-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,7 +111,7 @@ body {
   background-image: url(./img/play3.jpg);
 }
 
-.play1, .play2, .play3 {
+.play {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -129,7 +129,7 @@ body {
   cursor: pointer;
 }
 
-.play1:hover, .play2:hover, .play3:hover {
+.play:hover {
   border: 3px solid $hoverPlays;
   box-sizing: border-box;
   border-radius: 16px;

@@ -26,7 +26,7 @@
 
 }
 
-.play {
+.play-container {
   padding-left: 16px;
   padding-right: 16px;
 
@@ -34,38 +34,23 @@
   flex-direction: column;
 }
 
-.play1 {
-  background-image: url(./img/play1_mob.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-sizing: border-box;
+.play {
   height: 343px;
   width: 100%;
   padding-left: 15px;
+}
+
+.play1 {
+  background-image: url(./img/play1_mob.jpg);
 
 }
 
 .play2 {
   background-image: url(./img/play2_mob.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 343px;
-  width: 100%;
-  padding-left: 15px;
 }
 
 .play3{
   background-image: url(./img/play3_mob.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 343px;
-  width: 100%;
-  padding-left: 15px;
 }
 
 }
